@@ -1,0 +1,144 @@
+body{
+    background-color:lightgrey;
+    margin: 0px;
+}
+
+.main_container{
+    display:grid;
+    grid-template-columns:  100px 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 30px 20px  20px 210px 20px 20px 20px 10px;
+}
+
+.nav{
+text-align: center;
+text-decoration: none;
+background-color: darkgray;
+padding: 05px;
+grid-column: 1 / span 12;
+}
+
+.logo{
+    /*background-color: blue;*/
+    text-decoration: none;
+    float: left;
+    color: white;
+    padding: 5px;
+ }
+
+ul{
+    list-style-type: none;
+    float: right;
+    
+/*    background-color: blue;*/
+}
+
+li{
+    display: inline;
+    padding-left:50px;
+
+}
+
+li a{
+    text-decoration: none;
+    display:inline;
+    color: white;
+}
+
+#start_container{
+    background-color: gold;
+    grid-column: 1/span 12;
+    grid-row: 5;
+}
+
+.start_button{
+    background-color: yellow;
+    border:none;
+    text-align: center;
+    
+}
+
+#footer{
+    text-align: center;
+    background-color: black;
+    grid-row: 8;
+    grid-column: 1/span 12;
+}
+
+.main_game_container{
+    margin-top: 0px;
+    background-color: white;   
+      grid-row: 4;
+    grid-column: 1 /span 12;
+}
+
+/****************************************************************************************/
+ #head_title{
+    grid-column: 1/span 12;
+    grid-row: 2;
+    background-color: darkblue;
+    text-align: center;
+}
+
+#character_button_container{
+    grid-column: 1 /span 12;
+    grid-row: 6;
+/*    background-color: green;*/
+    text-align: center;
+}
+
+#random_court_container{
+    grid-column: 1/span 12;
+    grid-row: 7;
+    background: red;
+    text-align: center;
+}
+
+#user_character{
+    grid-column: 1;
+    grid-row: 2;
+    float: left;
+    margin-left: 10px;
+}
+
+#computer_character{
+    grid-column: 10;
+    grid-row: 2;
+    float: right; 
+    margin-right: 10px;
+}
+
+#court_select{
+margin-left: 300px;
+}
+
+#user_score{
+float: left;
+margin-left: 10px;
+}
+
+#computer_score{
+float: right;
+margin-right: 50px;
+}
+
+#game_buttons{
+    grid-row: 6;
+    grid-column: 4 /span 7;
+}
+
+#user_move{
+grid-column: 1;
+grid-row: 5;
+
+}
+
+#computer_move{
+grid-column: 10;
+grid-row: 5;
+}
+
+#match_response{
+grid-row: 5;
+grid-column: 3 /span 7;
+}
+

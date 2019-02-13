@@ -167,7 +167,7 @@ function opponentCharacterSelection() {
     $("#oppAId").click(function () {
         computerCharacterSelection = characters[0];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer:" + computerCharacterSelection);
+        $("#computer_character").text("Computer: " + computerCharacterSelection);
         chooseCourt();
     });
 
@@ -180,7 +180,7 @@ function opponentCharacterSelection() {
     $("#oppZId").click(function () {
         computerCharacterSelection = characters[1];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer:" + computerCharacterSelection);
+        $("#computer_character").text("Computer: " + computerCharacterSelection);
         chooseCourt();
     });
 
@@ -193,7 +193,7 @@ function opponentCharacterSelection() {
     $("#oppGanooId").click(function () {
         computerCharacterSelection = characters[2];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer:" + computerCharacterSelection);
+        $("#computer_character").text("Computer: " + computerCharacterSelection);
         chooseCourt();
     });
 
@@ -206,7 +206,7 @@ function opponentCharacterSelection() {
     $("#oppVirginelleId").click(function () {
         computerCharacterSelection = characters[3];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer:" + computerCharacterSelection);
+        $("#computer_character").text("Computer: " + computerCharacterSelection);
         chooseCourt();
     });
 
@@ -219,7 +219,7 @@ function opponentCharacterSelection() {
     $("#oppRailId").click(function () {
         computerCharacterSelection = characters[4];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer:" + computerCharacterSelection);
+        $("#computer_character").text("Computer: " + computerCharacterSelection);
         chooseCourt();
     });
 
@@ -232,7 +232,7 @@ function opponentCharacterSelection() {
     $("#oppClawdiaId").click(function () {
         computerCharacterSelection = characters[5];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer:" + computerCharacterSelection);
+        $("#computer_character").text("Computer: " + computerCharacterSelection);
         chooseCourt();
     });
 
@@ -245,7 +245,7 @@ function opponentCharacterSelection() {
     $("#oppHiJackId").click(function () {
         computerCharacterSelection = characters[6];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer:" + computerCharacterSelection);
+        $("#computer_character").text("Computer: " + computerCharacterSelection);
         chooseCourt();
     });
 
@@ -258,7 +258,7 @@ function opponentCharacterSelection() {
     $("#oppWoodiniId").click(function () {
         computerCharacterSelection = characters[7];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer:" + computerCharacterSelection);
+        $("#computer_character").text("Computer: " + computerCharacterSelection);
         chooseCourt();
     });
 
@@ -271,7 +271,7 @@ function opponentCharacterSelection() {
     $("#oppRandomCharacterId").click(function () {
         computerCharacterSelection = randomCharacter();
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer:" + computerCharacterSelection);
+        $("#computer_character").text("Computer: " + computerCharacterSelection);
         chooseCourt();
     });
 };
@@ -308,7 +308,7 @@ function courtSelectionFunc() {
     $("#wildRecId").click(function () {
         courtselection = courts[0];
         console.log(courtselection);
-        $("#court_select").text("court selection: " + courtselection);
+        $("#court_select").text("Court Selection: " + courtselection);
         gameScript2();
     });
 
@@ -321,7 +321,7 @@ function courtSelectionFunc() {
     $("#rimRockId").click(function () {
         courtselection = courts[1];
         console.log(courtselection);
-        $("#court_select").text("court selection: " + courtselection);
+        $("#court_select").text("Court Selection: " + courtselection);
         gameScript2();
     });
 
@@ -334,7 +334,7 @@ function courtSelectionFunc() {
     $("#lakiaId").click(function () {
         courtselection = courts[2];
         console.log(courtselection);
-        $("#court_select").text("court selection: " + courtselection);
+        $("#court_select").text("Court Selection: " + courtselection);
         gameScript2();
     });
 
@@ -347,7 +347,7 @@ function courtSelectionFunc() {
     $("#swishId").click(function () {
         courtselection = courts[3];
         console.log(courtselection);
-        $("#court_select").text("court selection: " + courtselection);
+        $("#court_select").text("Court Selection: " + courtselection);
         gameScript2();
     });
 
@@ -360,7 +360,7 @@ function courtSelectionFunc() {
     $("#random_courtId").click(function () {
         courtselection = randomCourt();
         console.log(courtselection);
-        $("#court_select").text("court selection: " + courtselection);
+        $("#court_select").text("Court Selection: " + courtselection);
         gameScript2();
     });
 
