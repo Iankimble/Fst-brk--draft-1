@@ -38,7 +38,8 @@ function characterSelection() {
     $("#aId").click(function () {
         userCharacterSelection = characters[0];
         console.log(userCharacterSelection);
-        $("#user_character").text("User: " + userCharacterSelection);
+        $("#user_character").text(userCharacterSelection);
+        document.getElementById("userArt").src="./images/LionOTransparent.png";
         chooseOpponentNext()
     });
 
@@ -51,7 +52,8 @@ function characterSelection() {
     $("#zId").click(function () {
         userCharacterSelection = characters[1];
         console.log(userCharacterSelection);
-        $("#user_character").text("User: " + userCharacterSelection);
+        $("#user_character").text(userCharacterSelection);
+        document.getElementById("userArt").src="./images/Prince Transparent.png";
         chooseOpponentNext()
     });
 
@@ -64,7 +66,8 @@ function characterSelection() {
     $("#ganooId").click(function () {
         userCharacterSelection = characters[2];
         console.log(userCharacterSelection);
-        $("#user_character").text("User: " + userCharacterSelection);
+        $("#user_character").text(userCharacterSelection);
+        document.getElementById("userArt").src="./images/Michael Jackson tramsparent.png";
         chooseOpponentNext()
     });
 
@@ -77,7 +80,8 @@ function characterSelection() {
     $("#virginelleId").click(function () {
         userCharacterSelection = characters[3];
         console.log(userCharacterSelection);
-        $("#user_character").text("User: " + userCharacterSelection);
+        $("#user_character").text(userCharacterSelection);
+        document.getElementById("userArt").src="./images/She Ra transparent.png";
         chooseOpponentNext()
     });
 
@@ -90,7 +94,8 @@ function characterSelection() {
     $("#railId").click(function () {
         userCharacterSelection = characters[4];
         console.log(userCharacterSelection);
-        $("#user_character").text("User: " + userCharacterSelection);
+        $("#user_character").text(userCharacterSelection);
+        document.getElementById("userArt").src="./images/ninja turtle transparent.png";
         chooseOpponentNext()
     });
 
@@ -103,7 +108,8 @@ function characterSelection() {
     $("#clawdiaId").click(function () {
         userCharacterSelection = characters[5];
         console.log(userCharacterSelection);
-        $("#user_character").text("User: " + userCharacterSelection);
+        $("#user_character").text(userCharacterSelection);
+        document.getElementById("userArt").src="./images/Terminator Transparent.png";
         chooseOpponentNext()
     });
 
@@ -116,7 +122,8 @@ function characterSelection() {
     $("#hiJackId").click(function () {
         userCharacterSelection = characters[6];
         console.log(userCharacterSelection);
-        $("#user_character").text("User: " + userCharacterSelection);
+        $("#user_character").text(userCharacterSelection);
+        document.getElementById("userArt").src="./images/Mr. T transparent.png";
         chooseOpponentNext()
     });
 
@@ -129,7 +136,8 @@ function characterSelection() {
     $("#woodiniId").click(function () {
         userCharacterSelection = characters[7];
         console.log(userCharacterSelection);
-        $("#user_character").text("User: " + userCharacterSelection);
+        $("#user_character").text(userCharacterSelection);
+        document.getElementById("userArt").src="./images/Madonna Transparent.png";
         chooseOpponentNext()
     });
 
@@ -142,7 +150,7 @@ function characterSelection() {
     $("#randomCharacterId").click(function () {
         userCharacterSelection = randomCharacter();
         console.log(userCharacterSelection);
-        $("#user_character").text("User: " + userCharacterSelection);
+        $("#user_character").text(userCharacterSelection);
         chooseOpponentNext()
     });
 
@@ -167,7 +175,7 @@ function opponentCharacterSelection() {
     $("#oppAId").click(function () {
         computerCharacterSelection = characters[0];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer: " + computerCharacterSelection);
+        $("#computer_character").text(computerCharacterSelection);
         chooseCourt();
     });
 
@@ -180,7 +188,8 @@ function opponentCharacterSelection() {
     $("#oppZId").click(function () {
         computerCharacterSelection = characters[1];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer: " + computerCharacterSelection);
+        $("#computer_character").text(computerCharacterSelection);
+        document.getElementById("computerArt").src="./images/Prince Transparent.png";
         chooseCourt();
     });
 
@@ -193,7 +202,8 @@ function opponentCharacterSelection() {
     $("#oppGanooId").click(function () {
         computerCharacterSelection = characters[2];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer: " + computerCharacterSelection);
+        $("#computer_character").text(computerCharacterSelection);
+        document.getElementById("computerArt").src="./images/Michael Jackson tramsparent.png";
         chooseCourt();
     });
 
@@ -206,7 +216,8 @@ function opponentCharacterSelection() {
     $("#oppVirginelleId").click(function () {
         computerCharacterSelection = characters[3];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer: " + computerCharacterSelection);
+        $("#computer_character").text(computerCharacterSelection);
+        document.getElementById("computerArt").src="./images/She Ra transparent.png";
         chooseCourt();
     });
 
@@ -219,7 +230,8 @@ function opponentCharacterSelection() {
     $("#oppRailId").click(function () {
         computerCharacterSelection = characters[4];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer: " + computerCharacterSelection);
+        $("#computer_character").text(computerCharacterSelection);
+        document.getElementById("computerArt").src="./images/ninja turtle transparent.png";
         chooseCourt();
     });
 
@@ -232,7 +244,8 @@ function opponentCharacterSelection() {
     $("#oppClawdiaId").click(function () {
         computerCharacterSelection = characters[5];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer: " + computerCharacterSelection);
+        $("#computer_character").text(computerCharacterSelection);
+        document.getElementById("computerArt").src="./images/Terminator Transparent.png";
         chooseCourt();
     });
 
@@ -245,7 +258,8 @@ function opponentCharacterSelection() {
     $("#oppHiJackId").click(function () {
         computerCharacterSelection = characters[6];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer: " + computerCharacterSelection);
+        $("#computer_character").text(computerCharacterSelection);
+        document.getElementById("computerArt").src="./images/Mr. T transparent.png";
         chooseCourt();
     });
 
@@ -258,7 +272,8 @@ function opponentCharacterSelection() {
     $("#oppWoodiniId").click(function () {
         computerCharacterSelection = characters[7];
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer: " + computerCharacterSelection);
+        $("#computer_character").text(computerCharacterSelection);
+        document.getElementById("computerArt").src="./images/Madonna Transparent.png";
         chooseCourt();
     });
 
@@ -271,7 +286,7 @@ function opponentCharacterSelection() {
     $("#oppRandomCharacterId").click(function () {
         computerCharacterSelection = randomCharacter();
         console.log(computerCharacterSelection);
-        $("#computer_character").text("Computer: " + computerCharacterSelection);
+        $("#computer_character").text(computerCharacterSelection);
         chooseCourt();
     });
 };
@@ -308,7 +323,8 @@ function courtSelectionFunc() {
     $("#wildRecId").click(function () {
         courtselection = courts[0];
         console.log(courtselection);
-        $("#court_select").text("Court Selection: " + courtselection);
+        $("#court_select").text( courtselection);
+    document.querySelector(".main_game_container").style.background= "URL(./images/newbg.jpg)";
         gameScript2();
     });
 
@@ -321,7 +337,7 @@ function courtSelectionFunc() {
     $("#rimRockId").click(function () {
         courtselection = courts[1];
         console.log(courtselection);
-        $("#court_select").text("Court Selection: " + courtselection);
+        $("#court_select").text( courtselection);
         gameScript2();
     });
 
@@ -334,7 +350,7 @@ function courtSelectionFunc() {
     $("#lakiaId").click(function () {
         courtselection = courts[2];
         console.log(courtselection);
-        $("#court_select").text("Court Selection: " + courtselection);
+        $("#court_select").text( courtselection);
         gameScript2();
     });
 
@@ -347,7 +363,7 @@ function courtSelectionFunc() {
     $("#swishId").click(function () {
         courtselection = courts[3];
         console.log(courtselection);
-        $("#court_select").text("Court Selection: " + courtselection);
+        $("#court_select").text( courtselection);
         gameScript2();
     });
 
@@ -360,7 +376,7 @@ function courtSelectionFunc() {
     $("#random_courtId").click(function () {
         courtselection = randomCourt();
         console.log(courtselection);
-        $("#court_select").text("Court Selection: " + courtselection);
+        $("#court_select").text( courtselection);
         gameScript2();
     });
 

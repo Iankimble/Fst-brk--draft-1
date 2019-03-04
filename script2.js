@@ -61,7 +61,7 @@ function toggleswitch() {
     $("#offensive_button_container, #defensive_button_container").toggle();
 };
 function stopGameforUser() {
-    if (userScore > 17) {
+    if (userScore > 5) {
        // $("#user").html("!!! CONGRATULATIONS YOU WIN !!!")
         //console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         $("#computer_score").hide();
@@ -70,8 +70,8 @@ function stopGameforUser() {
         $("#defensive_button_container").hide();
         $("#user_move").hide();
         $("#computer_move").hide();
-        $("#match_response").text("Congratulations! You win!");
-        
+        $("#match_response").hide();
+        $("#gameOver").text("Congratulations! You win!");
         /*
         var rematchButton = document.createElement("button");
         var text = document.createTextNode("Rematch");
@@ -89,7 +89,7 @@ function stopGameforUser() {
     }
 };
 function stopGameforComputer() {
-    if (computerScore > 17) {
+    if (computerScore > 5) {
        // $("#user").html("!!! OH NO YOU LOSE !!!")
         //console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         $("#computer_score").hide();
@@ -98,8 +98,8 @@ function stopGameforComputer() {
         $("#defensive_button_container").hide();
         $("#user_move").hide();
         $("#computer_move").hide();
-        $("#match_response").text("Sorry! You lose!");
-        
+        $("#match_response").hide();
+        $("#gameOver").text("Sorry, you lose");
         /*
         var rematchButton = document.createElement("button");
         var text = document.createTextNode("Rematch");
@@ -121,7 +121,7 @@ function userScoreboard() {
 
     //counter++;
     //$("#user_score").html("User score: " + userScore++)
-    $("#user_score").text("User score: " + userScore++);
+    $("#user_score").text( userScore++);
     //userScore++;
     console.log(userScore);
     stopGameforUser();
@@ -130,7 +130,7 @@ function computeScoreboard() {
 
     //counter++;
     //$("#computer_score").html("Computer score: "+ computerScore++)
-    $("#computer_score").text("Computer score: "+ computerScore++);
+    $("#computer_score").text(computerScore++);
     //computerScore++;
     console.log(computerScore);
     stopGameforComputer();
@@ -180,8 +180,8 @@ function gameScript2() {
     $("#court_selection_header_container").hide();
     $("#court_buttons_container").hide();
     $("#random_court_button").hide();
-    $("#user_score").text(userCharacter + "scrore: " );
-    $("#computer_score").text(computerCharacter + "score: ");
+    $("#user_score").text(userCharacter + "00" );
+    $("#computer_score").text(computerCharacter + "00 ");
 
     var shootButton = document.createElement("button");
     var text = document.createTextNode("Shoot");

@@ -1,3 +1,8 @@
+@media only screen 
+and (min-width : 1224px) {
+    /* Styles */
+
+
 body{
     background-color:lightgrey;
     margin: 0px;
@@ -5,8 +10,8 @@ body{
 
 .main_container{
     display:grid;
-    grid-template-columns:  100px 100px 100px 100px 100px 100px 100px ;
-    grid-template-rows: 30px 20px  20px 210px 20px 20px 20px 10px;
+    grid-template-columns: auto auto auto auto auto auto auto auto  ;
+    grid-template-rows: 45px 20px 20px 430px 25px 25px;
 }
 
 .nav{
@@ -17,12 +22,22 @@ padding: 05px;
 grid-column: 1 / span 12;
 }
 
+.menu-nav{
+    font-size: 30px;
+    position: relative;
+    bottom: 25px;
+    right: 35px;
+}
+
 .logo{
     /*background-color: blue;*/
     text-decoration: none;
     float: left;
     color: white;
     padding: 5px;
+    font-size: 30px;
+    position: relative;
+    left: 25px;
  }
 
 ul{
@@ -35,7 +50,6 @@ ul{
 li{
     display: inline;
     padding-left:50px;
-
 }
 
 li a{
@@ -45,8 +59,8 @@ li a{
 }
 
 #start_container{
-    background-color: gold;
-    grid-column: 1/span 12;
+    /*background-color: gold;*/
+    grid-column: 7;
     grid-row: 5;
 }
 
@@ -54,19 +68,25 @@ li a{
     background-color: yellow;
     border:none;
     text-align: center;
-    
+    font-size: 35px;    
+    width: 1360px;
+    transition: 0.3s;
+}
+
+.start_button:hover{
+    background-color: orangered
 }
 
 #footer{
     text-align: center;
-    background-color: black;
+    /*background-color: black;*/
     grid-row: 8;
     grid-column: 1/span 12;
 }
 
 .main_game_container{
     margin-top: 0px;
-    background-color: white;   
+    background-color: white;  
       grid-row: 4;
     grid-column: 1 /span 12;
 }
@@ -77,11 +97,12 @@ li a{
     grid-row: 2;
     background-color: darkblue;
     text-align: center;
+    font-size: 35px;
 }
 
 #character_button_container{
     grid-column: 1 /span 12;
-    grid-row: 6;
+    grid-row: 5;
 /*    background-color: green;*/
     text-align: center;
 }
@@ -89,56 +110,84 @@ li a{
 #random_court_container{
     grid-column: 1/span 12;
     grid-row: 7;
-    background: red;
+    /*background: red;*/
     text-align: center;
 }
 
 #user_character{
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 2;
     float: left;
-    margin-left: 10px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 35px;
 }
 
 #computer_character{
     grid-column: 10;
     grid-row: 2;
     float: right; 
-    margin-right: 10px;
+    margin-right: 40px;
+    padding-right: 5px;
+    text-align: center;
+    font-size: 35px;
 }
 
 #court_select{
-margin-left: 300px;
+    grid-column: 6;
+    /*margin-left: 600px;*/
+    font-size: 35px;
+    text-align: center;
 }
 
 #user_score{
-float: left;
-margin-left: 10px;
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 25px
 }
 
 #computer_score{
-float: right;
-margin-right: 50px;
+    float: right;
+    margin-right: 55px;
+    text-align: center;
+    font-size: 25px;
 }
 
 #game_buttons{
-    grid-row: 6;
-    grid-column: 4 /span 7;
+  /*  grid-row: 6;
+    grid-column: 7; */
+    position: fixed;
+    top: 525px;
+    left: 500px;
 }
 
 #user_move{
-grid-column: 1;
-grid-row: 5;
-
+    grid-column: 1;
+    grid-row: 5;
+    font-size: 50px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 #computer_move{
-grid-column: 10;
-grid-row: 5;
+    grid-column: 11;
+    grid-row: 5;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+
 }
 
 #match_response{
 grid-row: 5;
-grid-column: 3 /span 7;
+grid-column: 1;
+text-align: center;
+font-size: 15px;
 }
 
+
+
+
+
+}

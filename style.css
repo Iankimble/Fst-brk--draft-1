@@ -1,118 +1,181 @@
-#body{
-  background-color:lightgoldenrodyellow;
+@media screen and (max-width:320px){
+
+  .main_container{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    grid-template-rows: 30px 30px 40px 355px 45px 20px 30px;
+    background-color: blue;
 }
 
-.logo{
+  .logo{
+  color: black;
+  margin: 120px;
   text-decoration: none;
+  font-size: 20px;
+  grid-row: 1;
+} 
+
+body{
+  background-color: green;
 }
 
-#nav-container{
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-bottom: 30px;
-  
+.nav{
+  background-color: yellow;
+  grid-row: 1;
 }
 
 ul{
-list-style-type: none;
-text-decoration: none;
-margin: 0px;
-padding: 0px;
+  display: block;
+  list-style-type: none;
+  overflow: hidden;
+  margin:0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: brown;
+  grid-row: 2;
 }
 
 li{
-display: inline;
-padding: 30px;
+  float: left;
+  display: block;
+  padding: 4px;
 }
 
 li a{
-text-decoration: none;
+  background-color: purple;
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 15px 50px;
 }
 
-.index-container{
-display: grid;
-height: 10px;
-margin-left: 40px;
-/*background-color: red;*/
-}
-
-.sub-menu-nav{
-display: grid;
-height: 10px;
-margin-left: 400px;
-/*background-color: blue;*/
-}
-
-#user_character_header_container{
-  margin-left: 300px;
-}
-
-#user_character_button_container{
-margin-left: 200px;
-}
-
-#random_user_button{
-padding: 10px;
-margin-left: 350px;
-}
-
-#court_buttons_container{
+.start_button{
+  background-color: red;
+  width: 305px;
+  height: 50px;
+  font-size: 25px;
+  color: white;
+  border: none;
 
 }
 
-#computer_character_header_container{
-
+#start_container{
+grid-row: 5;
+grid-column: 1;
 }
 
-#computer_character_button_container{
-
+.main_game_container{
+  background-color: white;
+  grid-row: 4;
 }
-#defensive_button_containe{
-
-}
-
-#random_computer_button{
-
-}
-
-#court_selection_header_container{
-
-}
-
-
-
-
-
-.play-button{
-  grid-template-columns: auto auto auto auto auto;
-  grid-template-rows: auto auto auto auto;
-  margin-top: 200px;
-  margin-left: 580px;
+/*****************************************************/
+#head_title{
+  font-size: 15px;
+  text-align: center;
+  width: 305px;
+  height: 25px;
+  margin: 0px;
+  grid-row: 3;
+  background-color: pink;
 }
 
-
-@media screen and (max-width:298px){
-  #nav-container{
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-    padding:0px;
-  }
-
-.index-container{
-  width: auto;
+#character_button_container{
+  grid-row: 5;
+  text-align: center;
+  /*background-color:mediumaquamarine;*/  
+  grid-column: 1;
+}
+#random_court_container{
+  grid-row: 6;
+  grid-column: 1;
+  text-align: center;
+/*  background-color: violet;*/
 }
 
-.sub-menu-nav{
-  width: auto;
-  margin-left: 0px;
-  margin-top: 10px;
+#user_character{
+  float: left;
+  text-align: center;
+  grid-row: 3;
+  font-size: 20px;
 }
 
-.play-button{
-  width: auto;
-  margin-top: 220px;
-  margin-left: 70px;
+#computer_character{
+  float: right;
+  text-align: center;
+  grid-row: 3;
+  font-size: 20px;
+}
+
+#court_select{
+  text-align: center;
+  grid-column: 2;
+  font-size: 25px;
+}
+
+#user_score{
+  float: left;
+}
+
+#computer_score{
+  float: right;
+}
+
+/************************************************/
+#game_buttons{
+  grid-row: 5;
+  grid-column: 1;
+  margin-left: 35px;
+}
+#user_move{
+  grid-column: 1;
+  grid-row: 6;
+  text-align: left;
+  color: yellow;
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+#computer_move{
+  grid-column: 1;
+  grid-row: 6;
+  text-align: right;
+  color: yellow;
+  padding-right:40px;
+  font-size: 20px;
 }
 
 
+#match_response{
+  grid-row: 7;
+  grid-column: 1;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+
+/************************************************/
+#userArt{
+  margin-top: 75px;
+  height: 200px;
+  width: 120px;
+  grid-column: 1;
+  float: left;
+  
+}
+
+#computerArt{
+  margin-top: 75px;
+  height: 200px;
+  width: 120px;
+  grid-column: 3;
+  float: right;
+}
+
+
+
+
+
+
+/********************************************/
 }

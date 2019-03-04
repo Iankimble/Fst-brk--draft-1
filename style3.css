@@ -1,0 +1,243 @@
+@media only screen 
+and (min-width : 1224px) {
+    /* Styles */
+
+/* USER CHARACTER BUTTONS*/
+#aId{
+    border:2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#zId{
+    border:2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#ganooId{
+    border: 2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#virginelleId{
+    border: 2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#railId{
+    border: 2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#clawdiaId{
+    border: 2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#hiJackId{
+    border: 2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#woodiniId{
+    border: 2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#randomCharacterId{
+    border: 2px solid orangered;
+    padding: 8px  312px;
+    margin:10px;
+    font-size: 15px;
+}
+
+/*OPPONENT SELECT BUTTONS*/
+
+#oppAId{
+    border:2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#oppZId{
+    border:2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#oppGanooId{
+    border:2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#oppVirginelleId{
+    border:2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#oppRailId{
+    border:2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#oppClawdiaId{
+    border:2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#oppHiJackId{
+    border:2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#oppWoodiniId{
+    border:2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#oppRandomCharacterId{
+    border: 2px solid orangered;
+    padding: 8px  312px;
+    margin:10px;
+    font-size: 15px;
+}
+
+/*COURT SELECTION BUTTONS*/
+
+#wildRecId{
+    border: 2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#rimRockId{   
+    border: 2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#lakiaId{
+    border: 2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#swishId{
+    border: 2px solid orangered;
+    padding: 10px  24px;
+    margin: 5px;
+    font-size: 15px;
+}
+#random_courtId{
+    border: 2px solid orangered;
+    padding: 8px  312px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+#shootId{
+background-color: blue;
+padding: 10px 24px;
+margin: 10px;
+font-size: 20px;
+border: none;
+}
+
+#crossoverId{
+background-color: blue;
+padding: 10px 24px;
+margin: 10px;
+font-size: 20px;
+border: none;
+}
+
+#passId{
+background-color: blue;
+padding: 10px 24px;
+margin: 10px;
+font-size: 20px;
+border: none;
+}
+
+#blockId{
+background-color: red;
+padding: 10px 24px;
+margin: 10px;
+font-size: 20px;
+border: none;
+}
+
+#lockdownId{
+background-color: red;
+padding: 10px 24px;
+margin: 10px;
+font-size: 20px;
+border: none;
+}
+
+#stealId{
+background-color: red;
+padding: 10px 24px;
+margin: 10px;
+font-size: 20px;
+border: none;
+}
+
+#game_reset{
+    grid-column: 1; 
+    grid-row: 5;
+}
+
+#newGame{
+    background-color:teal;
+    font-size: 35px;
+    transition: 0.3s;
+    width: 1365px;
+    text-align: center;
+}
+
+#newGame:hover{
+    background-color: greenyellow;
+}
+
+#gameOver{
+    grid-column: 6;
+    grid-row: 4;
+    text-align: center;
+    font-size: 45px;
+    /*padding-top: 50px;*/
+}
+
+}
