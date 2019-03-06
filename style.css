@@ -1,27 +1,32 @@
-@media screen and (max-width:320px){
+@media screen and (max-width:425px){
 
   .main_container{
     display: grid;
     grid-template-columns:auto auto auto ;
-    grid-template-rows: 30px 30px 40px 355px 45px 20px 30px;
-    background-color: blue;
+    grid-template-rows: 40px 10px 15px 350px 50px 20px 30px;
+    background-color: #ff794d;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
   .logo{
-  color: black;
-  margin: 120px;
+  color: #ffcc00;
+  margin: 165px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   grid-row: 1;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 } 
 
 body{
-  background-color: green;
+  background-color: #ff794d;
 }
 
 .nav{
-  background-color: yellow;
+  background-color: #cc3300;
   grid-row: 1;
+  grid-column: 1 /span 3; 
+  border-bottom: 8px solid #800000;
 }
 
 ul{
@@ -31,8 +36,9 @@ ul{
   margin:0px;
   padding: 0px;
   overflow: hidden;
-  background-color: brown;
+  background-color: #800000;
   grid-row: 2;
+
 }
 
 li{
@@ -42,31 +48,41 @@ li{
 }
 
 li a{
-  background-color: purple;
+  /*background-color: purple;*/
   display: block;
   text-decoration: none;
-  color: white;
-  padding: 15px 50px;
+  color: #ffcc00;
+  padding: 1px 70px;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .start_button{
-  background-color: red;
-  width: 305px;
+  background-color: yellow;
+  width: 410px;
   height: 50px;
   font-size: 25px;
   color: white;
   border: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  border-left: 5px solid #cc3300;
+  border-right: 5px solid #cc3300;
+  border-bottom: 5px solid #cc3300;
 
 }
 
 #start_container{
 grid-row: 5;
-grid-column: 1;
+grid-column: 1 /span 3;
+
 }
 
 .main_game_container{
-  background-color: white;
+  background-color: lightgray;
   grid-row: 4;
+  grid-column: 1 /span 3;
+  border: 5px solid #cc3300;
 }
 /*****************************************************/
 #head_title{
@@ -74,9 +90,10 @@ grid-column: 1;
   text-align: center;
   width: 305px;
   height: 25px;
-  margin: 0px;
+  margin-left:50px;
   grid-row: 3;
-  background-color: pink;
+  
+ /* background-color: pink;*/
 }
 
 #character_button_container{
@@ -114,24 +131,31 @@ grid-column: 1;
 
 #user_score{
   float: left;
+  font-size: 45px;
+  color: black;
 }
+
 
 #computer_score{
   float: right;
+  font-size: 45px;
+  color: black;
 }
 
 /************************************************/
 #game_buttons{
   grid-row: 5;
   grid-column: 1;
-  margin-left: 35px;
+  margin-left: 90px;
+ padding-bottom: 10px;
 }
+
 #user_move{
   grid-column: 1;
   grid-row: 6;
   text-align: left;
   color: yellow;
-  padding-left: 40px;
+  float: left;
   font-size: 20px;
 }
 
@@ -139,8 +163,9 @@ grid-column: 1;
   grid-column: 1;
   grid-row: 6;
   text-align: right;
+  margin-right: 0px;
   color: yellow;
-  padding-right:40px;
+  float: right;
   font-size: 20px;
 }
 
@@ -150,7 +175,7 @@ grid-column: 1;
   grid-column: 1;
   text-align: center;
   color: white;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 

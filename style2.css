@@ -4,22 +4,24 @@ and (min-width : 1224px) {
 
 
 body{
-    background-color:lightgrey;
+    background-color:#ff794d;
     margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .main_container{
     display:grid;
     grid-template-columns: auto auto auto auto auto auto auto auto  ;
-    grid-template-rows: 45px 20px 20px 430px 25px 25px;
+    grid-template-rows: 60px 0px 0px 450px 25px 20px;
 }
 
 .nav{
 text-align: center;
 text-decoration: none;
-background-color: darkgray;
+background-color:#cc3300;
 padding: 05px;
 grid-column: 1 / span 12;
+border-bottom: 8px solid #800000;
 }
 
 .menu-nav{
@@ -33,7 +35,7 @@ grid-column: 1 / span 12;
     /*background-color: blue;*/
     text-decoration: none;
     float: left;
-    color: white;
+    color:#ffcc00;
     padding: 5px;
     font-size: 30px;
     position: relative;
@@ -55,7 +57,7 @@ li{
 li a{
     text-decoration: none;
     display:inline;
-    color: white;
+    color:#ffcc00;
 }
 
 #start_container{
@@ -69,12 +71,18 @@ li a{
     border:none;
     text-align: center;
     font-size: 35px;    
-    width: 1360px;
+    width: 1366px;
+    height: 75px;
     transition: 0.3s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-left: 5px solid #cc3300;
+    border-right: 5px solid #cc3300;
+    border-bottom: 5px solid #cc3300;
 }
 
 .start_button:hover{
-    background-color: orangered
+    background-color: orange;
+    color: white;
 }
 
 #footer{
@@ -86,16 +94,19 @@ li a{
 
 .main_game_container{
     margin-top: 0px;
-    background-color: white;  
+    /* USE CUSTOM IMAGE FOR BACKGROUND*/
+    background-color: lightgray;  
       grid-row: 4;
     grid-column: 1 /span 12;
+    border: 5px solid #cc3300;
+
 }
 
 /****************************************************************************************/
  #head_title{
     grid-column: 1/span 12;
     grid-row: 2;
-    background-color: darkblue;
+    /*background-color: #660000;*/
     text-align: center;
     font-size: 35px;
 }
@@ -144,14 +155,18 @@ li a{
     float: left;
     margin-left: 50px;
     text-align: center;
-    font-size: 25px
+    font-size: 55px;
+    color: black;
+
 }
 
 #computer_score{
     float: right;
     margin-right: 55px;
     text-align: center;
-    font-size: 25px;
+    font-size: 55px;
+    color: black;
+
 }
 
 #game_buttons{
@@ -168,6 +183,7 @@ li a{
     font-size: 50px;
     padding-top: 20px;
     text-align: center;
+    color: #ffff4d;
 }
 
 #computer_move{
@@ -176,7 +192,7 @@ li a{
     text-align: center;
     font-size: 50px;
     padding-top: 20px;
-
+    color: #ffff4d;
 }
 
 #match_response{

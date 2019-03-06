@@ -8,6 +8,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #zId{
@@ -15,6 +17,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #ganooId{
@@ -22,6 +26,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #virginelleId{
@@ -29,6 +35,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #railId{
@@ -36,6 +44,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #clawdiaId{
@@ -43,6 +53,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #hiJackId{
@@ -50,6 +62,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #woodiniId{
@@ -57,6 +71,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #randomCharacterId{
@@ -64,6 +80,8 @@ and (min-width : 1224px) {
     padding: 8px  312px;
     margin:10px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 /*OPPONENT SELECT BUTTONS*/
@@ -73,6 +91,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #oppZId{
@@ -80,6 +100,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #oppGanooId{
@@ -87,6 +109,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #oppVirginelleId{
@@ -94,6 +118,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #oppRailId{
@@ -101,6 +127,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #oppClawdiaId{
@@ -108,6 +136,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #oppHiJackId{
@@ -115,6 +145,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #oppWoodiniId{
@@ -122,6 +154,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #oppRandomCharacterId{
@@ -129,6 +163,8 @@ and (min-width : 1224px) {
     padding: 8px  312px;
     margin:10px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 /*COURT SELECTION BUTTONS*/
@@ -138,6 +174,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #rimRockId{   
@@ -145,6 +183,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #lakiaId{
@@ -152,6 +192,8 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #swishId{
@@ -159,12 +201,16 @@ and (min-width : 1224px) {
     padding: 10px  24px;
     margin: 5px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 #random_courtId{
     border: 2px solid orangered;
     padding: 8px  312px;
     margin: 10px;
     font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffff80;
 }
 
 #shootId{
@@ -173,6 +219,9 @@ padding: 10px 24px;
 margin: 10px;
 font-size: 20px;
 border: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: #c4c4ed;
+border: 3px solid #19194d;
 }
 
 #crossoverId{
@@ -181,6 +230,9 @@ padding: 10px 24px;
 margin: 10px;
 font-size: 20px;
 border: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:#c4c4ed;
+border: 3px solid #19194d;
 }
 
 #passId{
@@ -189,6 +241,9 @@ padding: 10px 24px;
 margin: 10px;
 font-size: 20px;
 border: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: #c4c4ed;
+border: 3px solid #19194d;
 }
 
 #blockId{
@@ -197,6 +252,9 @@ padding: 10px 24px;
 margin: 10px;
 font-size: 20px;
 border: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: #ffb3b3;
+border: 3px solid #990000;
 }
 
 #lockdownId{
@@ -205,6 +263,9 @@ padding: 10px 24px;
 margin: 10px;
 font-size: 20px;
 border: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: #ffb3b3;
+border: 3px solid #990000;
 }
 
 #stealId{
@@ -213,23 +274,35 @@ padding: 10px 24px;
 margin: 10px;
 font-size: 20px;
 border: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:#ffb3b3;
+border: 3px solid #990000;
 }
 
 #game_reset{
     grid-column: 1; 
     grid-row: 5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #newGame{
-    background-color:teal;
+    background-color:orange;
     font-size: 35px;
     transition: 0.3s;
-    width: 1365px;
+    width: 1366px;
+    height: 75px;
     text-align: center;
+    border: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 5px solid #cc3300;
+    border-left: 5px solid #cc3300;
+    border-right: 5px solid #cc3300;
 }
 
 #newGame:hover{
-    background-color: greenyellow;
+    background-color: yellow;
+    color: black;
 }
 
 #gameOver{
