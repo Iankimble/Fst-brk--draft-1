@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FST-BRK</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="style_5_mobile_button.css">
-
-    <link rel="stylesheet" type="text/css" href="style2.css">
-    <link rel="stylesheet" type="text/css" href="style3.css">
-    <link rel="stylesheet" type="text/css" href="style4.css">
+    <!--Large Phone Display-->
+    <link rel="stylesheet" type="text/css" href="mobile_responsive_main_display_425.css">
+    <link rel="stylesheet" type="text/css" href="mobile_responsive_game_buttons_425.css">
+    <!--Medium Phone Display-->
+    <link rel="stylesheet" type="text/css" href="mobile_responsive_main_display_375.css">
+    <link rel="stylesheet" type="text/css" href="mobile_responsive_game_buttons_375.css">
+    <!--Large laptop view-->
+    <link rel="stylesheet" type="text/css" href="main_game_view.css">
+    <link rel="stylesheet" type="text/css" href="main_button_view.css">
+    <!--Game Art-->
+    <link rel="stylesheet" type="text/css" href="game_art.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
@@ -40,22 +46,19 @@
         </div>
 
         <div id="game_buttons">
-                <div id="offensive_button_container"></div>
-                <div id="defensive_button_container"></div>
-            </div>
-          
-              <!--Game Move Actions-->
-            <div id="user_move"></div>
-            <div id="computer_move"></div>
-       
-            <div id="match_response"></div>
+            <div id="offensive_button_container"></div>
+            <div id="defensive_button_container"></div>
+        </div>
 
+        <!--Game Move Actions-->
+        <div id="user_move"></div>
+        <div id="computer_move"></div>
+        <div id="match_response"></div>
+        <div id="response_container"></div>
+        <!------------------------------------------------------------------------------------------->
+        <div class="main_game_container">
+            <!------------------------------------------------------------------------------------------->
 
-            <div id="response_container"></div>
-            <!------------------------------------------------------------------------------------------->
-            <div class="main_game_container">
-            <!------------------------------------------------------------------------------------------->
-         
             <!--Characters-->
             <div id="user_character"></div>
             <div id="computer_character"></div>
@@ -66,11 +69,10 @@
             <div id="user_score"></div>
             <div id="computer_score"></div>
             <div id="gameOver"></div>
-<!----------------------character and court art-------------------------------------->
-        
-            <img id="userArt"> 
+            <!----------------------character and court art-------------------------------------->
+
+            <img id="userArt">
             <img id="computerArt">
-        
 
             <div id="user_Character_Art"></div>
             <div id="computer_Character_Art"></div>
@@ -106,17 +108,13 @@
             <div id="random_court_button"></div>
         </div>
 
-
         <!----------------------------------------------------------------------------------------->
         <!--reset game-->
         <div id="game_reset"></div>
-        
-
 
         <!--<div id="footer">Ian Kimble</div>-->
 
     </div>
-
 
     <script src="./script.js"></script>
     <script src="./script2.js"></script>
